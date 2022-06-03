@@ -17,7 +17,7 @@ void revPrint(struct newNode* start)
  if (start == NULL)
   return;
  revPrint(start->next);
- printf("%c " , start->data);
+ printf("%c" , start->data);
 } // function for printing in reverse
 
 
